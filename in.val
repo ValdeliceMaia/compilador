@@ -1,0 +1,24 @@
+Inicio
+!!Testando
+int a
+flt b
+str c
+r >> a
+r >> b
+r >> c
+se (a==a)
+vv << a
+senao
+vv << 'Um texto aleat0rio'
+ENQUANTO(true)
+	10+20 = 30
+	20-10 = 10
+	2*4 = 8
+	4/2 = 2
+
+variavel<variavel
+2>=3
+3==3
+5^2
+4 && 3
+Fim
