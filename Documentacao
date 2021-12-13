@@ -1,0 +1,61 @@
+#Documentação sobre uso da Linguagem .val
+
+#Iniciar e Finalizar a Linguagem
+-> INICIO (INFORMADO DA PRIMEIRA LINHA DO CODIGO)
+-> FIM (INFORMADO DA ULTIMA LINHA DO CODIGO)
+#Como comentar:
+
+Os comentários são realizados pelo comando:	
+
+-> -_- (Simbolos que encapsulam a linha)
+
+#Descrições das variáveis
+
+As variavéis podem ser declaradas como:
+
+-> Tipo inteiro: inteiro (Valores inteiros)
+-> Float: dizima (Valores quebrados)
+-> String: txt (Valores textuais)
+
+#Operações aritméticas
+
+As operações aritméticas basicas:
+
+-> Adição: +
+-> Subtração: -
+-> Multiplicação: *
+-> Divisão: /
+
+#Operações lógicas
+
+As operações lógicas de comparação:
+-> Maior: > (valor maiir de dois ou mais)
+-> menor: < (Valor menor de dois ou mais)
+-> igual: == (Expressa sinal de igualdade de dois valores)
+-> diferente: <> (Expressa igualdade da logica )
+-> maior igual: >= (Expressa que o valor é maior e igual ao comparado)
+-> menor igual: <= (Expressa que o valor é menor e igual ao comparado)
+
+#Entradas e saidas do codigo:
+
+-> Leitura de uma variável do tipo numerico: leia()
+-> Leitura de uma variável do tipo txt: leias()
+-> Escrita de uma variável numerica: imprimir()
+-> Escrita de uma variável do tipo texto: imprima()
+
+OBS: Para declarações de entradas pelo teclado deve ultilizar o token:
+
+-> escreva("")
+
+#Estrutura condicional
+
+-> se(){}
+-> se(){}senao{}
+
+#Estrutura de repetição
+
+- while(){}
+
+#Funções adicionais
+
+-> ESPACO: Determinar o espaçamento entre linhas.

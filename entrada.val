@@ -1,0 +1,46 @@
+INICIO
+
+-_-Resolução calculo da média ponderada de um aluno do IFCE
+-_- Todas as variavéis ja sendo iniciada com 0
+
+txt @nome = 0
+dizima @nota1 = 0
+dizima @nota2 = 0
+dizima @nota3 = 0
+dizima @nota4 = 0
+dizima @media = 0
+
+escrever("Nome do Aluno: ")
+leias(@nome)
+
+escrever("Informe a primeira nota: ")
+leia(@nota1)
+
+escrever("Informe a segunda nota: ")
+leia(@nota2)
+
+escrever("Informe a terceira nota: ")
+leia(@nota3)
+
+escrever("Informe a quarta nota: ")
+leia(@nota4)
+
+
+@nota1 = (@nota1+@nota2)/2
+@nota2 = (@nota3+@nota4)/2
+@media = (@nota1*2 + @nota2*3)/5 
+
+
+imprima(@nome)
+escrever("A média é: ")
+imprimir(@media)
+
+se(@media >= 7){
+    escrever("Aprovado")
+    
+} senao {
+    escrever("Reprovado")
+    
+}
+
+FIM
